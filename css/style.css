@@ -1,0 +1,51 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-image: url(/img/oboik.ru_7870.jpg);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4px;
+  background-color: rgba(8, 9, 12, 0.521);
+  border-radius: 10px;
+  max-width: 260px;
+  height: 380px;
+  font-family: Tahoma, Verdana, sans-serif;
+  padding: 10px;
+}
+
+.item {
+  color: rgb(242, 251, 255);
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  font-weight: bold;
+  background-color: rgba(62, 64, 70, 0.486);
+  border-radius: 2px;
+}
+
+.input {
+  grid-row: 1/3;
+  grid-column: 1/5;
+  display: grid;
+  border: none;
+  font-size: 28px;
+  outline: none;
+  text-align: right;
+  cursor: text;
+  font-weight: 100;
+}
+.plus {
+  grid-column: 4;
+  grid-row: 7/9;
+}
+
+.clear {
+  grid-row: 3;
+  grid-column: 3/5;
+}
