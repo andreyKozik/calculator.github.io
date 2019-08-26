@@ -4,7 +4,7 @@ body {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  background-image: url(img/oboik.ru_7870.jpg);
+  background-image: url("img/oboik.ru_7870.jpg");
 }
 
 .container {
